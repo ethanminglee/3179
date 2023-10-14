@@ -1,0 +1,26 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Test Map",
+    "width": 1200,
+    "height": 800,
+    "projection": {
+        "type": "mercator",
+        "pointRadius": 1
+    },
+    "layer": [
+        {
+            "data": {
+                "url": "/data/MB_2016_VIC.json",
+                "format": {"type": "topojson", "feature": "MB_2016_VIC"}
+            },
+            "mark": {"type": "geoshape", "fill": "grey", "stroke": "white"}
+        },
+        {
+            "data": {
+                "url": "/data/on-street-parking-bay-sensors.json",
+                "format": {"type": "topojson", "feature": "on-street-parking-bay-sensors"}
+            },
+            "mark": {"type": "geoshape", "color": "red"}
+        }
+    ]
+}
