@@ -8,7 +8,7 @@
     "config": {
         "font": "Roboto",
         "style": {"cell": {"stroke": "transparent"}},
-        "legend": {"orient": "bottom", "labelFontSize": 12}
+        "legend": {"orient": "bottom", "labelFontSize": 16}
     },
     "mark": "line",
     "transform": [{

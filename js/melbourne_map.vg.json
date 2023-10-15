@@ -1,12 +1,16 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 600,
-    "height": 600,
-    "title": {"text": "Transport Infrastucture of Melbourne", "fontSize": 20, "offset": -15},
+    "width": 900,
+    "height": 900,
+    "title": {
+        "text": "Transport Infrastucture of Melbourne", "fontSize": 20, "offset": -15,
+        "subtitle": "Note that on-street parking is limited to the CBD, so may appear smaller in numbers than off-street parking",
+        "subtitleColor": "grey"
+    },
     "config": {
         "font": "Roboto",
         "style": {"cell": {"stroke": "transparent"}},
-        "legend": {"orient": "bottom", "labelFontSize": 12}
+        "legend": {"orient": "bottom", "labelFontSize": 12, "offset": -25}
     },
     "projection": {
         "type": "mercator",
@@ -19,7 +23,7 @@
                 "format": {"type": "topojson", "feature": "MB_2016_VIC"},
                 "name": "building_outlines"
             },
-            "mark": {"type": "geoshape", "fill": "lightgrey", "stroke": "white"}
+            "mark": {"type": "geoshape", "fill": "#c3bba4", "stroke": "white"}
         },
         {
             "data": {
@@ -28,7 +32,8 @@
             "mark": {
                 "type": "point", 
                 "size": 8, 
-                "filled": true
+                "filled": true,
+                "opacity": 1
             },
             "encoding": {
                 "longitude": {"field": "Longitude", "type": "quantitative"},
@@ -53,7 +58,8 @@
             "mark": {
                 "type": "point", 
                 "size": 8,
-                "filled": true
+                "filled": true,
+                "opacity": 1
             },
             "encoding": {
                 "longitude": {"field": "Longitude", "type": "quantitative"},
@@ -79,7 +85,8 @@
             "mark": {
                 "type": "point", 
                 "size": 100, 
-                "filled": true
+                "filled": true,
+                "opacity": 1
             },
             "encoding": {
                 "longitude": {"field": "Longitude", "type": "quantitative"},
@@ -103,7 +110,8 @@
             "mark": {
                 "type": "point", 
                 "size": 50, 
-                "filled": true
+                "filled": true,
+                "opacity": 1
             },
             "encoding": {
                 "longitude": {"field": "Longitude", "type": "quantitative"},
