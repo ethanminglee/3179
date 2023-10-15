@@ -1,13 +1,11 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.2.0.json",
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 600,
     "height": 600,
     "config": {
-        "style": {
-            "cell": {
-                "stroke": "transparent"
-            }
-        }
+        "font": "Roboto",
+        "style": {"cell": {"stroke": "transparent"}},
+        "legend": {"orient": "bottom"}
     },
     "projection": {
         "type": "mercator",
@@ -36,7 +34,10 @@
                 "longitude": {"field": "Longitude", "type": "quantitative"},
                 "latitude": {"field": "Latitude", "type": "quantitative"},
                 "color": {"field": "Area of Interest", "type": "nominal"}
-            }
+            },
+            "transform": [
+                {"filter": {"param": "aoi_select"}}
+            ]
         },
         {
             "data": {
@@ -52,7 +53,44 @@
                 "longitude": {"field": "Longitude", "type": "quantitative"},
                 "latitude": {"field": "Latitude", "type": "quantitative"},
                 "color": {"field": "Area of Interest", "type": "nominal"}
-            }
+            },
+            "transform": [
+                {"filter": {"param": "aoi_select"}}
+            ]
+        },
+        {
+            "params": [
+              {
+                "name": "click",
+                "value": null,
+                "select": {
+                  "type": "point",
+                  "fields": ["Entity"],
+                  "on": "click"
+                }
+              },
+              {
+                "name": "aoi_select",
+                "value": null,
+                "bind": {
+                  "input": "select",
+                  "options": [
+                    null,
+                    "Off Street Parking",
+                    "On Street Parking"
+                  ],
+                  "labels": [
+                    "Show all",
+                    "Off Street Parking",
+                    "On Street Parking"
+                  ],
+                  "name": "Select area of interest: "
+                },
+                "select": {"type": "point", "fields": ["Area of Interest"]}
+              }
+            ],
+            "mark": {"type": "text", "align": "left","fontWeight": "bold", "cursor": "pointer"},
+            "encoding": {"text": {"field":"Area of Interest", "type": "nominal"}}
         }
     ]
 }
