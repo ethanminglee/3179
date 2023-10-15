@@ -1,0 +1,7 @@
+STOP_ID,Latitude,STOP_NAME,Longitude,TICKETZONE,ROUTEUSSP,Area of Interest
+19979,-37.816527,Jolimont-MCG Railway Station (East Melbourne),144.984098,1,"Mernda,Hurstbridge",Train Station
+19842,-37.809939,Melbourne Central Railway Station (Melbourne City),144.962594,1,"Belgrave,Craigieburn,Cranbourne,Flemington,Glen Waverley,Hurstbridge,Lilydale,Mernda,Pakenham,Sunbury,Upfield,Alamein",Train Station
+19843,-37.811054,Parliament Railway Station (Melbourne City),144.972911,1,"Belgrave,Craigieburn,Cranbourne,Flemington,Glen Waverley,Hurstbridge,Lilydale,Mernda,Pakenham,Sunbury,Upfield,Alamein",Train Station
+19854,-37.818305,Flinders Street Railway Station (Melbourne City),144.966964,1,"Belgrave,Craigieburn,Cranbourne,Flemington,Frankston,Glen Waverley,Hurstbridge,Lilydale,Mernda,Pakenham,Sandringham,Sunbury,Upfield,Werribee,Williamstown,Alamein",Train Station
+19908,-37.824074,Richmond Railway Station (Richmond),144.990164,1,"Belgrave,Cranbourne,Frankston,Glen Waverley,Lilydale,Pakenham,Sandringham,Alamein",Train Station
+25,-37.8176784,Southern Cross Railway Station,144.9514462,1,,Train Station

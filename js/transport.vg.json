@@ -1,8 +1,14 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 400,
+    "title": {"text": "Public Transport Use in Melbourne", "fontSize": 20},
     "data": {
         "url": "../data/ptv_patronage.csv"
+    },
+    "config": {
+        "font": "Roboto",
+        "style": {"cell": {"stroke": "transparent"}},
+        "legend": {"orient": "bottom", "labelFontSize": 12}
     },
     "mark": "line",
     "transform": [{
@@ -11,6 +17,8 @@
     "encoding": {
         "x": {"timeUnit": "yearmonthdate", "field": "date", "type": "ordinal", "title":null},
         "y": {"field": "value", "type": "quantitative", "title": "Usage Count"},
-        "color": {"field": "key", "type": "nominal", "legend": {"title": "Transport Type"}}
+        "color": {"field": "key", "type": "nominal", "legend": {
+            "title": "Transport Type", "labelFontSize": 12
+        }}
     }
 }

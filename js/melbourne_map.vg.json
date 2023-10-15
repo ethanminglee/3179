@@ -2,10 +2,11 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 600,
     "height": 600,
+    "title": {"text": "Transport Infrastucture of Melbourne", "fontSize": 20, "offset": -15},
     "config": {
         "font": "Roboto",
         "style": {"cell": {"stroke": "transparent"}},
-        "legend": {"orient": "bottom"}
+        "legend": {"orient": "bottom", "labelFontSize": 12}
     },
     "projection": {
         "type": "mercator",
@@ -27,13 +28,19 @@
             "mark": {
                 "type": "point", 
                 "size": 8, 
-                "tooltip": {"content": "data"},
                 "filled": true
             },
             "encoding": {
                 "longitude": {"field": "Longitude", "type": "quantitative"},
                 "latitude": {"field": "Latitude", "type": "quantitative"},
-                "color": {"field": "Area of Interest", "type": "nominal"}
+                "color": {"field": "Area of Interest", "type": "nominal"},
+                "tooltip": [
+                    {"field": "Area of Interest", "type": "nominal", "title": "Area of Interest"},
+                    {"field": "Parkingbay_ID", "type": "quantitative", "title": "Parkingbay ID"},
+                    {"field": "Zone_Number", "type": "quantitative", "title": "Zone Number"},
+                    {"field": "Latitude", "type": "quantitative", "title": "Latitude"},
+                    {"field": "Longitude", "type": "quantitative", "title": "Longitude"}
+                ]
             },
             "transform": [
                 {"filter": {"param": "aoi_select"}}
@@ -45,14 +52,69 @@
             },
             "mark": {
                 "type": "point", 
-                "size": 8, 
-                "tooltip": {"content": "data"}, 
+                "size": 8,
                 "filled": true
             },
             "encoding": {
                 "longitude": {"field": "Longitude", "type": "quantitative"},
                 "latitude": {"field": "Latitude", "type": "quantitative"},
-                "color": {"field": "Area of Interest", "type": "nominal"}
+                "color": {"field": "Area of Interest", "type": "nominal"},
+                "tooltip": [
+                    {"field": "Area of Interest", "type": "nominal", "title": "Area of Interest"},
+                    {"field": "ogc_fid", "type": "quantitative", "title": "Location ID"},
+                    {"field": "clue_small_area", "type": "nominal", "title": "Suburb"},
+                    {"field": "street_name", "type": "nominal", "title": "Address"},
+                    {"field": "Latitude", "type": "quantitative", "title": "Latitude"},
+                    {"field": "Longitude", "type": "quantitative", "title": "Longitude"}
+                ]
+            },
+            "transform": [
+                {"filter": {"param": "aoi_select"}}
+            ]
+        },
+        {
+            "data": {
+                "url": "../data/PTV_METRO_TRAIN_STATION.csv"
+            },
+            "mark": {
+                "type": "point", 
+                "size": 100, 
+                "filled": true
+            },
+            "encoding": {
+                "longitude": {"field": "Longitude", "type": "quantitative"},
+                "latitude": {"field": "Latitude", "type": "quantitative"},
+                "color": {"field": "Area of Interest", "type": "nominal"},
+                "tooltip": [
+                    {"field": "Area of Interest", "type": "nominal", "title": "Area of Interest"},
+                    {"field": "STOP_NAME", "type": "nominal", "title": "Station Name"},
+                    {"field": "Latitude", "type": "quantitative", "title": "Latitude"},
+                    {"field": "Longitude", "type": "quantitative", "title": "Longitude"}
+                ]
+            },
+            "transform": [
+                {"filter": {"param": "aoi_select"}}
+            ]
+        },
+        {
+            "data": {
+                "url": "../data/PTV_METRO_TRAM_STOP.csv"
+            },
+            "mark": {
+                "type": "point", 
+                "size": 50, 
+                "filled": true
+            },
+            "encoding": {
+                "longitude": {"field": "Longitude", "type": "quantitative"},
+                "latitude": {"field": "Latitude", "type": "quantitative"},
+                "color": {"field": "Area of Interest", "type": "nominal"},
+                "tooltip": [
+                    {"field": "Area of Interest", "type": "nominal", "title": "Area of Interest"},
+                    {"field": "STOP_NAME", "type": "nominal", "title": "Station Name"},
+                    {"field": "Latitude", "type": "quantitative", "title": "Latitude"},
+                    {"field": "Longitude", "type": "quantitative", "title": "Longitude"}
+                ]
             },
             "transform": [
                 {"filter": {"param": "aoi_select"}}
@@ -77,19 +139,23 @@
                   "options": [
                     null,
                     "Off Street Parking",
-                    "On Street Parking"
+                    "On Street Parking",
+                    "Train Station",
+                    "Tram Stop"
                   ],
                   "labels": [
                     "Show all",
                     "Off Street Parking",
-                    "On Street Parking"
+                    "On Street Parking",
+                    "Train Station",
+                    "Tram Stop"
                   ],
                   "name": "Select area of interest: "
                 },
                 "select": {"type": "point", "fields": ["Area of Interest"]}
               }
             ],
-            "mark": {"type": "text", "align": "left","fontWeight": "bold", "cursor": "pointer"},
+            "mark": {"type": "text", "align": "left","fontWeight": "bold", "cursor": "pointer", "yOffset": 10},
             "encoding": {"text": {"field":"Area of Interest", "type": "nominal"}}
         }
     ]

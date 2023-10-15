@@ -1,0 +1,272 @@
+STOP_ID,Latitude,STOP_NAME,Longitude,TICKETZONE,ROUTEUSSP,Area of Interest
+18095,-37.816341,11-Jolimont Station-MCG/Wellington Pde (East Melbourne),144.984819,1,"75,48",Tram Stop
+18097,-37.81654,13-Simpson St/Wellington Pde (East Melbourne),144.986983,1,"75,48",Tram Stop
+18098,-37.817388,14-Punt Rd/Wellington Pde (Melbourne City),144.989675,1,"75,48",Tram Stop
+18099,-37.817533,14-Punt Rd/Bridge Rd (Richmond),144.990217,1,"75,48",Tram Stop
+18100,-37.816603,13-Simpson St/Wellington Pde (East Melbourne),144.98697,1,"75,48",Tram Stop
+18102,-37.816246,11-Jolimont Station-MCG/Wellington Pde (East Melbourne),144.983992,1,"75,48",Tram Stop
+18108,-37.819587,7B-Rod Laver Arena/MCG Gates 1-3 (Melbourne City),144.97913,1,70,Tram Stop
+18116,-37.822384,7C-MCG Gates 4-7/John Cain Arena (Melbourne City),144.98353,1,70,Tram Stop
+18118,-37.824135,7D-Olympic Boulevard (Melbourne City),144.986857,1,70,Tram Stop
+18155,-37.823827,7D-Olympic Boulevard (Melbourne City),144.986751,1,70,Tram Stop
+18161,-37.822137,7C-MCG Gates 4-7/John Cain Arena (Melbourne City),144.982798,1,70,Tram Stop
+18172,-37.819349,7B-Rod Laver Arena/MCG Gates 1-3 (Melbourne City),144.978421,1,70,Tram Stop
+22903,-37.818167,7A-William Barak Bridge/Melbourne Park (Melbourne City),144.976204,1,70,Tram Stop
+22904,-37.818323,7A-William Barak Bridge/Melbourne Park (Melbourne City),144.975825,1,70,Tram Stop
+19278,-37.824677,8-Richmond Station/Swan St (Richmond),144.989057,1,70,Tram Stop
+19466,-37.824532,8-Richmond Station/Swan St (Cremorne),144.988436,1,70,Tram Stop
+18184,-37.825688,125-Clarendon St/Whiteman St (Southbank),144.956684,1,"12,96,109",Tram Stop
+18225,-37.828431,19-Miles St/Sturt St (Southbank),144.965755,1,1,Tram Stop
+18226,-37.825779,18-Grant St/Sturt St (Southbank),144.966634,1,1,Tram Stop
+18230,-37.825924,18-Grant St/Sturt St (Southbank),144.966664,1,1,Tram Stop
+18231,-37.828184,19-Miles St/Sturt St (Southbank),144.966057,1,1,Tram Stop
+18233,-37.82626,116-City Rd/Kings Way (Southbank),144.960577,1,58,Tram Stop
+19721,-37.827691,125A-Southbank Tram Depot/Light Rail (South Melbourne),144.953709,1,"12,109",Tram Stop
+4125,-37.827223,126-City Rd/Clarendon St (South Melbourne),144.957869,1,12,Tram Stop
+22612,-37.8263,116-City Rd/Kings Way (Southbank),144.960803,1,58,Tram Stop
+19304,-37.826076,125-Port Junction/79 Whiteman St (Southbank),144.956208,1,"12,96,109",Tram Stop
+19369,-37.827453,125A-Southbank Tram Depot/Light Rail (South Melbourne),144.953988,1,"12,109",Tram Stop
+4324,-37.82806,126-City Rd/Clarendon St (South Melbourne),144.958346,1,12,Tram Stop
+18789,-37.797113,112-Lygon St/Elgin St (Carlton),144.967159,1,"6,1",Tram Stop
+18790,-37.794127,113-Lytton St/Lygon St (Carlton),144.968025,1,"6,1",Tram Stop
+17878,-37.805758,11-Melbourne Museum/Nicholson St (Fitzroy),144.973601,1,"96,86",Tram Stop
+17880,-37.809676,10-Albert St/Nicholson St (Fitzroy),144.972949,1,"86,96,35",Tram Stop
+17882,-37.811544,9-Spring St/Bourke St (Melbourne City),144.972579,1,"96,86",Tram Stop
+17891,-37.811523,9-Spring St/Bourke St (Melbourne City),144.97241,1,"96,86",Tram Stop
+17892,-37.809423,10-Albert St/Nicholson St (East Melbourne),144.972899,1,"86,96,35",Tram Stop
+17894,-37.805676,11-Melbourne Museum/Nicholson St (Fitzroy),144.973546,1,"96,86",Tram Stop
+17895,-37.80828,12-St Vincents Plaza/Victoria Pde (East Melbourne),144.976133,1,"11,12,30,109",Tram Stop
+17896,-37.80939,11-Albert St/Gisborne St (East Melbourne),144.975728,1,"11,12,109",Tram Stop
+17897,-37.812379,10-Parliament Railway Station/Macarthur St (East Melbourne),144.974488,1,"11,12,109",Tram Stop
+17898,-37.813557,8-Spring St/Collins St (Melbourne City),144.973285,1,"11,12,48,109",Tram Stop
+17914,-37.813416,8-Spring St/Collins St (Melbourne City),144.973482,1,"11,12,48,109",Tram Stop
+17915,-37.81217,10-Parliament Railway Station/Macarthur St (East Melbourne),144.974368,1,"11,12,109",Tram Stop
+18006,-37.809695,11-Albert St/Gisborne St (East Melbourne),144.975606,1,"11,12,109",Tram Stop
+18009,-37.808019,10-Nicholson St/Victoria Pde (East Melbourne),144.973562,1,30,Tram Stop
+18010,-37.807614,9-La Trobe St/Victoria St (Melbourne City),144.970972,1,"35,30",Tram Stop
+18030,-37.80955,6-Swanston St/La Trobe St (Melbourne City),144.964081,1,"35,30",Tram Stop
+18046,-37.809647,6-Swanston St/La Trobe St (Melbourne City),144.963465,1,"35,30",Tram Stop
+18047,-37.808909,7-Russell St/La Trobe St (Melbourne City),144.966098,1,"35,30",Tram Stop
+18048,-37.808185,8-Exhibition St/La Trobe St (Melbourne City),144.968537,1,"35,30",Tram Stop
+18049,-37.807656,9-Victoria St/La Trobe St (Melbourne City),144.970266,1,"35,30",Tram Stop
+18050,-37.807836,10-Nicholson St/Victoria Pde (Carlton),144.97284,1,"35,30",Tram Stop
+18051,-37.808231,12-St Vincents Plaza/Victoria Pde (Fitzroy),144.976452,1,"11,12,30,109",Tram Stop
+18092,-37.815319,8-Spring St/Flinders St (Melbourne City),144.974612,1,"75,35",Tram Stop
+18093,-37.815453,9-Lansdowne St/Wellington Pde (East Melbourne),144.977164,1,"75,48",Tram Stop
+18094,-37.81575,10-Jolimont Rd/Wellington Pde (East Melbourne),144.979791,1,"75,48",Tram Stop
+18103,-37.815769,10-Jolimont Rd/Wellington Pde (East Melbourne),144.979325,1,"75,48",Tram Stop
+18104,-37.815471,9-Lansdowne St/Wellington Pde (Melbourne City),144.976664,1,"75,48",Tram Stop
+18105,-37.815537,8-Spring St/Flinders St (Melbourne City),144.974174,1,"75,35",Tram Stop
+19693,-37.805135,4-Queensberry St/Swanston St (Carlton),144.963112,1,"16,3/3a,5,6,64,67,72,1",Tram Stop
+19726,-37.808551,13-Lansdowne St/Victoria Pde (East Melbourne),144.978806,1,"12,109",Tram Stop
+19728,-37.808925,15-Smith St/Victoria Pde (East Melbourne),144.982215,1,"12,109",Tram Stop
+19729,-37.809292,16-Wellington St/Victoria Pde (East Melbourne),144.985738,1,"12,109",Tram Stop
+20979,-37.811664,0-Bourke St/Spring St (Melbourne City),144.973246,1,35,Tram Stop
+22100,-37.808919,15-Smith St/Victoria Pde (Fitzroy),144.982908,1,"12,109",Tram Stop
+22152,-37.814215,7-Exhibition St/Collins St (Melbourne City),144.970712,1,"11,12,48,109",Tram Stop
+19340,-37.797027,112-Lygon St/Elgin St (Carlton),144.966355,1,"6,1",Tram Stop
+19374,-37.808435,13-Lansdowne St/Victoria Pde (Fitzroy),144.978344,1,"12,109",Tram Stop
+19377,-37.809271,16-Wellington St/Victoria Pde (Collingwood),144.986136,1,"12,109",Tram Stop
+19489,-37.799305,1-Melbourne University/Swanston St (Carlton),144.964192,1,"16,3/3a,5,6,64,67,72,1",Tram Stop
+19491,-37.80237,3-Lincoln Square/Swanston St (Carlton),144.963687,1,"16,3/3a,5,6,64,67,72,1",Tram Stop
+19689,-37.809889,8-Melbourne Central Station/Swanston St (Melbourne City),144.96389,1,"16,3/3a,5,6,64,67,72,1",Tram Stop
+6050,-37.794158,21-Alexandra Pde/Smith St (Fitzroy),144.985025,1,86,Tram Stop
+6051,-37.796781,20-Rose St/Smith St (Collingwood),144.984567,1,86,Tram Stop
+6052,-37.799081,19-Johnston St/Smith St (Fitzroy),144.984164,1,86,Tram Stop
+6053,-37.801579,18-Hodgson St/Smith St (Fitzroy),144.983744,1,86,Tram Stop
+6054,-37.80361,17-Charles St/Smith St (Fitzroy),144.983382,1,86,Tram Stop
+6056,-37.806256,15-Smith St/Gertrude St (Fitzroy),144.982663,1,86,Tram Stop
+6057,-37.80591,14-Napier St/Gertrude St (Fitzroy),144.979287,1,86,Tram Stop
+6058,-37.805655,13-Brunswick St/Gertrude St (Fitzroy),144.977057,1,86,Tram Stop
+6059,-37.801894,12-Moor St/Nicholson St (Fitzroy),144.97424,1,96,Tram Stop
+6061,-37.798407,13-Johnston St/Nicholson St (Fitzroy),144.974813,1,96,Tram Stop
+6062,-37.795254,14-Rose St/Nicholson St (Fitzroy),144.975387,1,96,Tram Stop
+6124,-37.793621,21-Alexandra Pde/Smith St (Clifton Hill),144.985278,1,86,Tram Stop
+6125,-37.796694,20-Keele St/Smith St (Fitzroy),144.984751,1,86,Tram Stop
+6126,-37.798842,19-Johnston St/Smith St (Fitzroy),144.984375,1,86,Tram Stop
+6127,-37.801394,18-Hodgson St/Smith St (Fitzroy),144.983965,1,86,Tram Stop
+6128,-37.803461,17-Charles St/Smith St (Fitzroy),144.983613,1,86,Tram Stop
+6129,-37.804862,16-Peel St/Smith St (Collingwood),144.983348,1,86,Tram Stop
+6130,-37.806236,15-Gertrude St/Smith St (Fitzroy),144.983095,1,86,Tram Stop
+6131,-37.80609,14-Napier St/Gertrude St (Fitzroy),144.979805,1,86,Tram Stop
+6132,-37.805823,13-Brunswick St/Gertrude St (Fitzroy),144.977381,1,86,Tram Stop
+6133,-37.801587,12-Moor St/Nicholson St (Fitzroy),144.974237,1,96,Tram Stop
+6135,-37.797616,13-Johnston St/Nicholson St (Carlton),144.974948,1,96,Tram Stop
+6136,-37.795244,14-Rose St/Nicholson St (Carlton),144.975319,1,96,Tram Stop
+4141,-37.805855,13-Gertrude St/Brunswick St (Fitzroy),144.977119,1,11,Tram Stop
+4142,-37.802835,14-Hanover St/Brunswick St (Fitzroy),144.977611,1,11,Tram Stop
+4143,-37.800445,15-Bell St/Brunswick St (Fitzroy),144.978039,1,11,Tram Stop
+4144,-37.798531,16-Johnston St/Brunswick St (Fitzroy),144.978364,1,11,Tram Stop
+4145,-37.795629,17-Leicester St/Brunswick St (Fitzroy),144.978852,1,11,Tram Stop
+4146,-37.793625,18-Alexandra Pde/Brunswick St (Fitzroy),144.97919,1,11,Tram Stop
+4450,-37.805597,13-Gertrude St/Brunswick St (Fitzroy),144.977319,1,11,Tram Stop
+4451,-37.802703,14-King William St/Brunswick St (Fitzroy),144.977807,1,11,Tram Stop
+4452,-37.800538,15-St David St/Brunswick St (Fitzroy),144.978184,1,11,Tram Stop
+4453,-37.798166,16-Johnston St/Brunswick St (Fitzroy),144.97859,1,11,Tram Stop
+4454,-37.795461,17-Leicester St/Brunswick St (Fitzroy),144.979038,1,11,Tram Stop
+18536,-37.793729,19-Abbotsford St Interchange/Abbotsford St (North Melbourne),144.947163,1,57,Tram Stop
+18537,-37.795246,18-Erskine St/Abbotsford St (North Melbourne),144.946803,1,57,Tram Stop
+18538,-37.796719,17-Canning St/Abbotsford St (North Melbourne),144.946535,1,57,Tram Stop
+18539,-37.797968,16-Haines St/Abbotsford St (North Melbourne),144.946319,1,57,Tram Stop
+18540,-37.800672,15-Arden St/Abbotsford St (North Melbourne),144.945835,1,57,Tram Stop
+18541,-37.802663,14-Abbotsford St/Queensberry St (North Melbourne),144.945802,1,57,Tram Stop
+16735,-37.795656,12-Morrah St/Royal Pde (Parkville),144.957944,1,19,Tram Stop
+16736,-37.798273,11-University of Melbourne/Royal Pde (Parkville),144.957656,1,19,Tram Stop
+17334,-37.795561,12-Morrah St/Royal Pde (Parkville),144.958173,1,19,Tram Stop
+17335,-37.798105,11-University of Melbourne/Royal Pde (Parkville),144.957854,1,19,Tram Stop
+17591,-37.812769,7-Russell St/Bourke St (Melbourne City),144.968354,1,"96,86",Tram Stop
+17593,-37.813484,6-Swanston St/Bourke St (Melbourne City),144.965904,1,"96,86",Tram Stop
+17594,-37.814217,5-Elizabeth St/Bourke St (Melbourne City),144.96351,1,"96,86",Tram Stop
+17596,-37.815253,4-Queen St/Bourke St (Melbourne City),144.959835,1,"96,86",Tram Stop
+17597,-37.815882,3-William St/Bourke St (Melbourne City),144.957625,1,"96,86",Tram Stop
+17848,-37.817063,1-Spencer St/Bourke St (Melbourne City),144.953514,1,"96,86",Tram Stop
+17849,-37.816846,1-Spencer St/Bourke St (Melbourne City),144.953997,1,"96,86",Tram Stop
+17850,-37.817717,1-Flinders Street Railway Station/Elizabeth St (Melbourne City),144.964765,1,"57,59,19",Tram Stop
+17851,-37.815428,2-Collins St/Elizabeth St (Melbourne City),144.963669,1,"57,59,19",Tram Stop
+17852,-37.813447,3-Bourke Street Mall/Elizabeth St (Melbourne City),144.962758,1,"57,59,19",Tram Stop
+17854,-37.810558,5-Melbourne Central Station/Elizabeth St (Melbourne City),144.961429,1,"57,59,19",Tram Stop
+17856,-37.806561,7-Queen Victoria Market/Elizabeth St (Melbourne City),144.959574,1,"57,59,19",Tram Stop
+17857,-37.805935,8-Peel St/Victoria St (Melbourne City),144.956218,1,57,Tram Stop
+17858,-37.805688,9-William St/Victoria St (Melbourne City),144.953908,1,57,Tram Stop
+17859,-37.805517,10-Chetwynd St/Victoria St (Melbourne City),144.952391,1,57,Tram Stop
+17860,-37.805196,11-Errol St/Victoria St (Melbourne City),144.949446,1,57,Tram Stop
+17861,-37.804959,11-Victoria St/Errol St (North Melbourne),144.949339,1,57,Tram Stop
+17862,-37.805403,10-Chetwynd St/Victoria St (Melbourne City),144.95203,1,57,Tram Stop
+17863,-37.805564,9-Howard St/Victoria St (Melbourne City),144.953502,1,57,Tram Stop
+17864,-37.80581,8-Peel St/Victoria St (Melbourne City),144.955744,1,57,Tram Stop
+17866,-37.801947,9-Pelham St/Elizabeth St (Melbourne City),144.957464,1,"59,19",Tram Stop
+17867,-37.799901,10-Royal Melbourne Hospital/Royal Pde (Melbourne City),144.957441,1,19,Tram Stop
+17868,-37.79958,10-Royal Melbourne Hospital/Royal Pde (Parkville),144.957665,1,19,Tram Stop
+17869,-37.802148,9-Pelham St/Elizabeth St (Melbourne City),144.957663,1,"59,19",Tram Stop
+17871,-37.80689,7-Queen Victoria Market/Elizabeth St (Melbourne City),144.959849,1,"57,59,19",Tram Stop
+17873,-37.811105,5-Melbourne Central Station/Elizabeth St (Melbourne City),144.961778,1,"57,59,19",Tram Stop
+17875,-37.814039,3-Bourke Street Mall/Elizabeth St (Melbourne City),144.963128,1,"57,59,19",Tram Stop
+17876,-37.815929,2-Collins St/Elizabeth St (Melbourne City),144.963996,1,"57,59,19",Tram Stop
+17877,-37.817899,1-Flinders Street Railway Station/Elizabeth St (Melbourne City),144.96484,1,"57,59,19",Tram Stop
+17885,-37.815706,3-William St/Bourke St (Melbourne City),144.957914,1,"96,86",Tram Stop
+17886,-37.815122,4-Queen St/Bourke St (Melbourne City),144.960054,1,"96,86",Tram Stop
+17887,-37.814031,5-Elizabeth St/Bourke St (Melbourne City),144.963685,1,"96,86",Tram Stop
+17888,-37.813266,6-Swanston St/Bourke St (Melbourne City),144.966376,1,"96,86",Tram Stop
+17889,-37.812468,7-Russell St/Bourke St (Melbourne City),144.969169,1,"96,86",Tram Stop
+17901,-37.815674,6-Melbourne Town Hall/Collins St (Melbourne City),144.965957,1,"11,12,48,109",Tram Stop
+17902,-37.816423,5-Elizabeth St/Collins St (Melbourne City),144.963404,1,"11,12,48,109",Tram Stop
+17903,-37.817607,3-William St/Collins St (Melbourne City),144.959429,1,"11,12,48,109",Tram Stop
+17905,-37.818847,1-Spencer St/Collins St (Melbourne City),144.955055,1,"11,12,48,109",Tram Stop
+17906,-37.818741,1-Spencer St/Collins St (Melbourne City),144.955183,1,"11,12,48,109",Tram Stop
+17908,-37.817372,3-William St/Collins St (Melbourne City),144.959913,1,"11,12,48,109",Tram Stop
+17910,-37.816206,5-Elizabeth St/Collins St (Melbourne City),144.963864,1,"11,12,48,109",Tram Stop
+17911,-37.815518,6-Melbourne Town Hall/Collins St (Melbourne City),144.96628,1,"11,12,48,109",Tram Stop
+17961,-37.794106,19-Abbotsford St Interchange/Abbotsford St (North Melbourne),144.947096,1,57,Tram Stop
+18011,-37.808103,8-Exhibition St/La Trobe St (Melbourne City),144.969027,1,"35,30",Tram Stop
+18031,-37.810291,5-Elizabeth St/La Trobe St (Melbourne City),144.961596,1,"35,30",Tram Stop
+18032,-37.811005,4-Queen St/La Trobe St (Melbourne City),144.959122,1,"35,30",Tram Stop
+18033,-37.811711,3-William St/La Trobe St (Melbourne City),144.956718,1,"35,30",Tram Stop
+18035,-37.813112,1-Spencer St/La Trobe St (Melbourne City),144.95176,1,"35,30",Tram Stop
+18037,-37.813781,D10-New Quay Prom/Docklands Dr (Docklands),144.940508,1,"70,86,35",Tram Stop
+18038,-37.814345,D11-Waterfront City/Docklands Dr (Docklands),144.938754,1,"70,86,35",Tram Stop
+18039,-37.813312,D10-NewQuay Prom/Docklands Dr (Docklands),144.941509,1,"70,86,35",Tram Stop
+18040,-37.814578,D1-Stadium Precinct/La Trobe St (Docklands),144.946404,1,"35,86,30",Tram Stop
+18041,-37.813211,119-Spencer St/La Trobe St (Melbourne City),144.951201,1,"35,86,30",Tram Stop
+18042,-37.81248,2-King St/La Trobe St (Melbourne City),144.953732,1,"35,30",Tram Stop
+18043,-37.811791,3-William St/La Trobe St (Melbourne City),144.956136,1,"35,30",Tram Stop
+18044,-37.811061,4-Queen St/La Trobe St (Melbourne City),144.958712,1,"35,30",Tram Stop
+18045,-37.810355,5-Elizabeth St/La Trobe St (Melbourne City),144.961117,1,"35,30",Tram Stop
+18052,-37.814705,D2-Central Pier/Harbour Esp (Docklands),144.944901,1,"35,70,75,86,30",Tram Stop
+18053,-37.817819,D3-Stadium Precinct/Harbour Esp (Docklands),144.946246,1,"70,75,35",Tram Stop
+18054,-37.821466,D4-Docklands Park/Harbour Esp (Docklands),144.94761,1,"70,75,35",Tram Stop
+18055,-37.821835,D5-South Wharf/Wurundjeri Way (Docklands),144.951213,1,"70,75,35",Tram Stop
+18056,-37.821471,D6-Flinders Street West/Flinders St (Docklands),144.953608,1,"70,75,35",Tram Stop
+18057,-37.79496,18-Chapman St/Abbotsford St (North Melbourne),144.946947,1,57,Tram Stop
+18058,-37.796307,17-Molesworth St/Abbotsford St (North Melbourne),144.946694,1,57,Tram Stop
+18059,-37.798284,16-Haines St/Abbotsford St (North Melbourne),144.946344,1,57,Tram Stop
+18060,-37.800997,15-Arden St/Abbotsford St (North Melbourne),144.945849,1,57,Tram Stop
+18061,-37.80239,14-Queensberry St/Abbotsford St (North Melbourne),144.945628,1,57,Tram Stop
+18087,-37.819063,3-Market St/Flinders St (Melbourne City),144.961797,1,"70,75,35",Tram Stop
+18089,-37.818238,4-Elizabeth St/Flinders St (Melbourne City),144.964626,1,"70,75,35",Tram Stop
+18090,-37.81756,5-Swanston St/Flinders St (Melbourne City),144.967132,1,"70,75,35",Tram Stop
+18091,-37.816564,6-Russell St/Flinders St (Melbourne City),144.9705,1,"70,75,35",Tram Stop
+18174,-37.816657,6-Russell St/Flinders St (Melbourne City),144.970168,1,"70,75,35",Tram Stop
+18175,-37.817756,5-Swanston St/Flinders St (Melbourne City),144.966491,1,"70,75,35",Tram Stop
+18176,-37.818412,4-Elizabeth St/Flinders St (Melbourne City),144.96428,1,"70,75,35",Tram Stop
+18178,-37.819306,3-Market St/Flinders St (Melbourne City),144.961279,1,"70,75,35",Tram Stop
+18179,-37.821726,D6-Victoria Police Centre/Flinders St (Southbank),144.953215,1,"70,75,35",Tram Stop
+18180,-37.822001,D5-South Wharf/Wurundjeri Way (Docklands),144.950913,1,"70,75,35",Tram Stop
+18181,-37.821725,D4-Docklands Park/Harbour Esp (Docklands),144.947501,1,"70,75,35",Tram Stop
+18182,-37.817463,D3-Stadium Precinct/Harbour Esp (Docklands),144.94596,1,"70,75,35",Tram Stop
+18183,-37.814249,D2-CentralPier/Harbour Esp (Docklands),144.944584,1,"35,70,75,86,30",Tram Stop
+18185,-37.823289,124A-Casino/MCEC/Clarendon St (Southbank),144.956057,1,"12,96,109",Tram Stop
+18186,-37.821554,124-Batman Park/Spencer St (Melbourne City),144.955265,1,"12,96,109",Tram Stop
+18187,-37.818767,122-Southern Cross Railway Station/Spencer St (Melbourne City),144.954092,1,96,Tram Stop
+18189,-37.815313,120-Lonsdale St/Spencer St (Melbourne City),144.952381,1,86,Tram Stop
+18190,-37.813405,119-La Trobe St/Spencer St (Melbourne City),144.951502,1,86,Tram Stop
+18192,-37.81496,120-Lonsdale St/Spencer St (Melbourne City),144.952311,1,86,Tram Stop
+18194,-37.818319,122-Southern Cross Railway Station/Spencer St (Melbourne City),144.953718,1,96,Tram Stop
+18196,-37.821773,124-Batman Park/Spencer St (Melbourne City),144.955406,1,"12,96,109",Tram Stop
+18197,-37.823591,124A-Casino/MCEC/Clarendon St (Southbank),144.95631,1,"12,96,109",Tram Stop
+18199,-37.815874,5-Bourke St/William St (Melbourne City),144.95825,1,58,Tram Stop
+18201,-37.811996,7-Flagstaff Railway Station/William St (Melbourne City),144.956517,1,58,Tram Stop
+18202,-37.809743,8-Franklin St/William St (Melbourne City),144.955454,1,58,Tram Stop
+18203,-37.805391,10-Victoria St/Peel St (West Melbourne),144.956029,1,58,Tram Stop
+18204,-37.805698,10-Victoria St/Peel St (West Melbourne),144.956077,1,58,Tram Stop
+18205,-37.807442,9-Queen Victoria Market/Peel St (North Melbourne),144.955779,1,58,Tram Stop
+18206,-37.807216,9-Queen Victoria Market/39 Peel St (North Melbourne),144.955751,1,58,Tram Stop
+18207,-37.809428,8-Franklin St/Peel St (Melbourne City),144.955474,1,58,Tram Stop
+18208,-37.812461,7-Flagstaff Railway Station/William St (Melbourne City),144.956799,1,58,Tram Stop
+18210,-37.81544,5-Bourke St/William St (Melbourne City),144.95816,1,58,Tram Stop
+18211,-37.817457,4-Collins St/William St (Melbourne City),144.959092,1,58,Tram Stop
+18214,-37.819513,1-Flinders St/Queens Bridge St (Melbourne City),144.96124,1,58,Tram Stop
+18215,-37.822117,115-Casino/Southbank/Queens Bridge St (Southbank),144.961225,1,58,Tram Stop
+18227,-37.823816,17-Arts Precinct/Sturt St (Southbank),144.967256,1,1,Tram Stop
+18229,-37.824094,17-Arts Precinct/Sturt St (Southbank),144.96718,1,1,Tram Stop
+18450,-37.821711,115-Casino East/Queens Bridge St (Southbank),144.961225,1,58,Tram Stop
+18465,-37.819429,1-Flinders St/Queens Bridge St (Melbourne City),144.961106,1,58,Tram Stop
+18466,-37.818539,2-Flinders Lane/Market St (Melbourne City),144.960698,1,58,Tram Stop
+18467,-37.81864,3-William St/Flinders Lane (Melbourne City),144.959776,1,58,Tram Stop
+18469,-37.817819,4-Collins St/William St (Melbourne City),144.959173,1,58,Tram Stop
+19691,-37.807799,7-RMIT University/Swanston St (Melbourne City),144.962868,1,"16,3/3a,5,6,64,67,72,1",Tram Stop
+19694,-37.802629,3-Lincoln Square/Swanston St (Carlton),144.963555,1,"16,3/3a,5,6,64,67,72,1",Tram Stop
+19696,-37.798766,1-Melbourne University/Swanston St (Carlton),144.964241,1,"16,3/3a,5,6,64,67,72,1",Tram Stop
+19699,-37.797587,15-Murphy St/Flemington Rd (North Melbourne),144.952394,1,"59,58",Tram Stop
+20482,-37.797488,15-Murphy St/Flemington Rd (North Melbourne),144.952385,1,"59,58",Tram Stop
+20490,-37.801384,12-Flemington Rd/Peel St (North Melbourne),144.95673,1,58,Tram Stop
+20491,-37.801548,12-Flemington Rd/Peel St (North Melbourne),144.956805,1,58,Tram Stop
+20492,-37.803623,11-Queensberry St/Peel St (North Melbourne),144.956441,1,58,Tram Stop
+20493,-37.803307,11-Queensberry St/Peel St (North Melbourne),144.956393,1,58,Tram Stop
+20981,-37.814566,D1-Stadium Precinct/La Trobe St (Docklands),144.946745,1,"35,86,30",Tram Stop
+21231,-37.820834,1-Spencer St/Flinders St (Melbourne City),144.955853,1,"70,75,35",Tram Stop
+21232,-37.821051,1-Spencer St/Flinders St (Melbourne City),144.955381,1,"70,75,35",Tram Stop
+21233,-37.82031,2-Melbourne Aquarium/Flinders St (Melbourne City),144.957821,1,"70,75,35",Tram Stop
+21234,-37.820109,2-Melbourne Aquarium/Flinders St (Melbourne City),144.958213,1,"70,75,35",Tram Stop
+22153,-37.814383,7-Exhibition St/Collins St (Melbourne City),144.970514,1,"11,12,48,109",Tram Stop
+19250,-37.802826,13-Curzon St/Queensberry St (North Melbourne),144.947944,1,57,Tram Stop
+19251,-37.802987,12-North Melbourne Town Hall/Queensberry St (North Melbourne),144.949405,1,57,Tram Stop
+19253,-37.799478,14-Royal Melbourne Hospital/Flemington Rd (Parkville),144.954886,1,"59,58",Tram Stop
+19254,-37.796419,16-Harker St/Flemington Rd (Parkville),144.951052,1,"59,58",Tram Stop
+19256,-37.794282,19-Royal Childrens Hospital/Flemington Rd (North Melbourne),144.948363,1,"59,58",Tram Stop
+19341,-37.794138,113-Lytton St/Lygon St (Carlton),144.968127,1,"6,1",Tram Stop
+19492,-37.805694,4-Queensberry St/Swanston St (Carlton),144.963108,1,"16,3/3a,5,6,64,67,72,1",Tram Stop
+19494,-37.808139,7-RMIT University/Swanston St (Melbourne City),144.96329,1,"16,3/3a,5,6,64,67,72,1",Tram Stop
+19495,-37.810382,8-Melbourne Central Station/Swanston St (Melbourne City),144.964274,1,"16,3/3a,5,6,64,67,72,1",Tram Stop
+19497,-37.813199,10-Bourke Street Mall/Swanston St (Melbourne City),144.965582,1,"16,3/3a,5,6,64,67,72,1",Tram Stop
+19498,-37.816378,11-City Square/Swanston St (Melbourne City),144.967017,1,"16,3/3a,5,6,64,67,72,1",Tram Stop
+19499,-37.818476,13-Federation Square/Swanston St (Melbourne City),144.967982,1,"16,3/3a,5,6,64,67,72,1",Tram Stop
+19500,-37.821846,14-Arts Precinct/St Kilda Rd (Southbank),144.969514,1,"16,3/3a,5,6,64,67,72,1",Tram Stop
+19502,-37.824169,17-Grant St-Police Memorial/St Kilda Rd (Southbank),144.970473,1,"3/3a,5,6,64,67,72,16",Tram Stop
+19589,-37.802942,13-Curzon St/Queensberry St (North Melbourne),144.948362,1,57,Tram Stop
+19590,-37.803224,12-North Melbourne Town Hall/Errol St (North Melbourne),144.949535,1,57,Tram Stop
+19591,-37.799826,14-Royal Melbourne Hospital/Flemington Rd (North Melbourne),144.955205,1,"59,58",Tram Stop
+19592,-37.796758,16-Harker St/Flemington Rd (North Melbourne),144.95136,1,"59,58",Tram Stop
+19594,-37.794141,19-Royal Childrens Hospital/Flemington Rd (North Melbourne),144.94806,1,"59,58",Tram Stop
+19681,-37.824634,17-Grant St-Police Memorial/St Kilda Rd (Southbank),144.970801,1,"3/3a,5,6,64,67,72,16",Tram Stop
+19684,-37.821517,14-Arts Precinct/St Kilda Rd (Southbank),144.969239,1,"16,3/3a,5,6,64,67,72,1",Tram Stop
+19685,-37.818065,13-Federation Square/Swanston St (Melbourne City),144.967675,1,"16,3/3a,5,6,64,67,72,1",Tram Stop
+19686,-37.81573,11-City Square/Swanston St (Melbourne City),144.966569,1,"16,3/3a,5,6,64,67,72,1",Tram Stop
+19687,-37.812759,10-Bourke Street Mall/Swanston St (Melbourne City),144.965185,1,"16,3/3a,5,6,64,67,72,1",Tram Stop
+43472,-37.819681,D14-Southern Cross Station/Collins St (Docklands),144.952215,1,"48,11",Tram Stop
+43473,-37.820266,D15-Batman's Hill/Collins St (Docklands),144.950131,1,"48,11",Tram Stop
+43474,-37.821527,D17-Merchant St/Collins St (Docklands),144.945416,1,"48,11",Tram Stop
+43475,-37.820797,D16-Harbour Esp/Collins St (Docklands),144.948038,1,"48,11",Tram Stop
+43476,-37.820074,D15-Batman's Hill/Collins St (Docklands),144.950477,1,"48,11",Tram Stop
+43477,-37.819471,D14-Southern Cross Station/Collins St (Docklands),144.952596,1,"48,11",Tram Stop
+43480,-37.820862,D16-Harbour Esp/Collins St (Docklands),144.948138,1,"48,11",Tram Stop
+47493,-37.820801,D18-Bourke St/Collins St (Docklands),144.942039,1,"48,11",Tram Stop
