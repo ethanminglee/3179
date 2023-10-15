@@ -1,0 +1,16 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 400,
+    "data": {
+        "url": "../data/ptv_patronage.csv"
+    },
+    "mark": "line",
+    "transform": [{
+        "fold": ["Metropolitan Train","Metropolitan Tram","Metropolitan Bus"]
+    }],
+    "encoding": {
+        "x": {"timeUnit": "yearmonthdate", "field": "date", "type": "ordinal", "title":null},
+        "y": {"field": "value", "type": "quantitative", "title": "Usage Count"},
+        "color": {"field": "key", "type": "nominal", "legend": {"title": "Transport Type"}}
+    }
+}

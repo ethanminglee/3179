@@ -1,0 +1,58 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.2.0.json",
+    "width": 600,
+    "height": 600,
+    "config": {
+        "style": {
+            "cell": {
+                "stroke": "transparent"
+            }
+        }
+    },
+    "projection": {
+        "type": "mercator",
+        "pointRadius": 1
+    },
+    "layer": [
+        {
+            "data": {
+                "url": "../data/MB_2016_VIC.json",
+                "format": {"type": "topojson", "feature": "MB_2016_VIC"},
+                "name": "building_outlines"
+            },
+            "mark": {"type": "geoshape", "fill": "lightgrey", "stroke": "white"}
+        },
+        {
+            "data": {
+                "url": "../data/on-street-parking-bay-sensors-crop.csv"
+            },
+            "mark": {
+                "type": "point", 
+                "size": 8, 
+                "tooltip": {"content": "data"},
+                "filled": true
+            },
+            "encoding": {
+                "longitude": {"field": "Longitude", "type": "quantitative"},
+                "latitude": {"field": "Latitude", "type": "quantitative"},
+                "color": {"field": "Area of Interest", "type": "nominal"}
+            }
+        },
+        {
+            "data": {
+                "url": "../data/clue-offstreet-car-parking-2017.csv"
+            },
+            "mark": {
+                "type": "point", 
+                "size": 8, 
+                "tooltip": {"content": "data"}, 
+                "filled": true
+            },
+            "encoding": {
+                "longitude": {"field": "Longitude", "type": "quantitative"},
+                "latitude": {"field": "Latitude", "type": "quantitative"},
+                "color": {"field": "Area of Interest", "type": "nominal"}
+            }
+        }
+    ]
+}
