@@ -34,9 +34,8 @@
 }
 
 .tram {
-  object-position: center;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
-
+  object-position: cetner;
+  padding-top: 30px;
 }
 
 .body-div {
@@ -44,6 +43,11 @@
 }
 
 h1 {
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+h2 {
   font-family: Roboto;
   font-weight: bold;
 }

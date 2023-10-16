@@ -1,0 +1,35 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": { "url": "../data/parking_times.csv"},
+    "width": 300,
+    "config": {
+        "font": "Roboto"
+    },
+    "mark": "circle",
+    "encoding": {
+        "x": {
+            "field": "day_of_week",
+            "type": "ordinal",
+            "sort": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "axis": {"orient": "top", "labelAngle":45},
+            "title": "Day of the Week"
+        },
+        "y": {
+            "field": "Hour_Pres",
+            "type": "ordinal",
+            "title": "Hour of the Day"
+        },
+        "size": {
+            "field": "Average",
+            "type": "quantitative",
+            "legend": {"title": "Average number of parked cars"}
+        },
+        "color": {
+            "value": "red"
+        },
+        "tooltip": [
+            {"field": "Count", "type": "quantitative", "title": "Total amount of parked cars"},
+            {"field": "Average", "type": "quantitative", "title": "Average for the year"}
+        ]
+    }
+}
