@@ -34,7 +34,7 @@
 }
 
 .tram {
-  object-position: cetner;
+  object-position: center;
   padding-top: 30px;
 }
 
@@ -60,4 +60,8 @@ p {
 
 body {
   background-color: lightgrey;
+}
+
+ul {
+  color: rgb(128,128,128);
 }

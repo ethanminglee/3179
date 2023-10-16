@@ -17,8 +17,13 @@
     "encoding": {
         "x": {"timeUnit": "yearmonthdate", "field": "date", "type": "ordinal", "title":null},
         "y": {"field": "value", "type": "quantitative", "title": "Usage Count"},
-        "color": {"field": "key", "type": "nominal", "legend": {
-            "title": "Transport Type", "labelFontSize": 12
-        }}
+        "color": {
+            "field": "key", 
+            "type": "nominal", 
+            "legend": {
+                "title": "Transport Type", "labelFontSize": 12
+            },
+            "scale": {"scheme": "accent"}
+        }
     }
 }
