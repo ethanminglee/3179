@@ -1,11 +1,12 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 900,
-    "height": 900,
+    "width":"container",
+    "height": "container",
     "title": {
         "text": "Transport Infrastucture of Melbourne", "fontSize": 20, "offset": -15,
         "subtitle": "Note that on-street parking is limited to the CBD, so may appear smaller in numbers than off-street parking",
-        "subtitleColor": "grey"
+        "subtitleColor": "grey",
+        "fontWeight": "bolder"
     },
     "config": {
         "font": "Roboto",
@@ -19,7 +20,7 @@
     "layer": [
         {
             "data": {
-                "url": "../data/MB_2016_VIC.json",
+                "url": "https://raw.githubusercontent.com/ethanminglee/DataVis2/main/data/MB_2016_VIC.json",
                 "format": {"type": "topojson", "feature": "MB_2016_VIC"},
                 "name": "building_outlines"
             },
@@ -27,7 +28,7 @@
         },
         {
             "data": {
-                "url": "../data/on-street-parking-bay-sensors-crop.csv"
+                "url": "https://raw.githubusercontent.com/ethanminglee/DataVis2/main/data/on-street-parking-bay-sensors-crop.csv"
             },
             "mark": {
                 "type": "point", 
@@ -53,7 +54,7 @@
         },
         {
             "data": {
-                "url": "../data/clue-offstreet-car-parking-2017.csv"
+                "url": "https://raw.githubusercontent.com/ethanminglee/DataVis2/main/data/clue-offstreet-car-parking-2017.csv"
             },
             "mark": {
                 "type": "point", 
@@ -80,7 +81,7 @@
         },
         {
             "data": {
-                "url": "../data/PTV_METRO_TRAIN_STATION.csv"
+                "url": "https://raw.githubusercontent.com/ethanminglee/DataVis2/main/data/PTV_METRO_TRAIN_STATION.csv"
             },
             "mark": {
                 "type": "point", 
@@ -105,7 +106,7 @@
         },
         {
             "data": {
-                "url": "../data/PTV_METRO_TRAM_STOP.csv"
+                "url": "https://raw.githubusercontent.com/ethanminglee/DataVis2/main/data/PTV_METRO_TRAM_STOP.csv"
             },
             "mark": {
                 "type": "point", 

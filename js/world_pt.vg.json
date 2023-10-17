@@ -1,0 +1,23 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": "container",
+    "config": {
+      "font": "Roboto"
+    },
+    "height": 450,
+    "title": "",
+    "data": {"url": "../data/world_pt.csv"},
+    "mark": {
+      "type": "bar"
+      
+    },
+    "encoding": {
+      "x": {"field": "network_length", "type": "quantitative", "title": "Length of Transport Network (m)"},
+      "y": {"field": "city", "type": "nominal", "title": "City Name"},
+      "color": {"value": "grey"},
+      "tooltip": [
+        {"field": "city", "type": "nominal", "title": "City Name"},
+        {"field": "network_length", "type": "quantitative", "title": "Length of Network (m)"}
+      ]
+    }
+}

@@ -1,19 +1,30 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 400,
-    "title": {"text": "Public Transport Use in Melbourne", "fontSize": 20},
+    "width": "container",
+    "height": "container",
+    "title": {
+        "text": "Public Transport Use in Melbourne", 
+        "fontSize": 20,
+        "subtitle": "For the years 2018 to 2023",
+        "subtitleColor": "grey",
+        "fontWeight": "bolder"
+    },
     "data": {
-        "url": "../data/ptv_patronage.csv"
+        "url": "https://raw.githubusercontent.com/ethanminglee/DataVis2/main/data/ptv_patronage.csv"
     },
     "config": {
         "font": "Roboto",
         "style": {"cell": {"stroke": "transparent"}},
         "legend": {"orient": "bottom", "labelFontSize": 16}
     },
-    "mark": "line",
-    "transform": [{
-        "fold": ["Metropolitan Train","Metropolitan Tram","Metropolitan Bus"]
-    }],
+    "mark": {
+        "type": "line",
+        "point": true
+    },
+    "transform": [
+        {"fold": ["Metropolitan Train","Metropolitan Tram","Metropolitan Bus"]}
+    ],
+
     "encoding": {
         "x": {"timeUnit": "yearmonthdate", "field": "date", "type": "ordinal", "title":null},
         "y": {"field": "value", "type": "quantitative", "title": "Usage Count"},
@@ -24,6 +35,10 @@
                 "title": "Transport Type", "labelFontSize": 12
             },
             "scale": {"scheme": "accent"}
-        }
+        },
+        "tooltip": [
+            {"field": "date", "type": "ordinal", "title": "Date", "timeUnit": "yearmonthdate"},
+            {"field": "value", "type": "nominal", "title": "Usage for the Month"}
+        ]
     }
 }

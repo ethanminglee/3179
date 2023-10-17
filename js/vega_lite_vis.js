@@ -12,3 +12,8 @@ var vg_3 = "js/parking_times.vg.json";
 vegaEmbed("#parking", vg_3, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
 }).catch(console.error);
+
+var vg_4 = "js/world_pt.vg.json";
+vegaEmbed("#world-pt", vg_4, {"actions": false}).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+}).catch(console.error);

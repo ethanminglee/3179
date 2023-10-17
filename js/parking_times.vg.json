@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": { "url": "../data/parking_times.csv"},
-    "width": 350,
+    "data": { "url": "https://raw.githubusercontent.com/ethanminglee/DataVis2/main/data/parking_times.csv"},
+    "width": 400,
     "config": {
         "font": "Roboto"
     },
@@ -22,7 +22,7 @@
         "size": {
             "field": "Average",
             "type": "quantitative",
-            "legend": {"title": "Average number of parked cars"}
+            "legend": {"title": "Average Number"}
         },
         "color": {
             "value": "red"

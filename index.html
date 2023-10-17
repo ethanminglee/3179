@@ -36,22 +36,25 @@
     <div class="container mt-4 py-4 shadow body-div px-4">
       <div class="row">
         <h2>Background</h2>
-        <div class="col-3">
+        <div class="col">
           <p>
             Melbourne (Naarm) is the capital of the Australia state of Victoria, and is the second most populous city in Australia.
             The central business district, CBD, of Melbourne has an area of 37.7 square kilometers, and a population of 149,615.
             Melbourne is a hub for intercity, intracity and regional travel, aided by its extensive public transport system and freeway network. 
             Road-based transport constitutes the majority of travel through the CBD, but other dominant modes of transport include walking, cycling and public transport.
             Home to the world's largest tram network, the public transport system also includes trains and buses. 
-            <br>
-            
           </p>
-          <img src="assets/tram.jpg", class="img-fluid tram">
+          <p>
+            Below is a map of Melbourne and some interesting infrastructure locations...
+          </p>
         </div>
-        <div class="col-6 text-left">
-          <div id="melbourne_map"></div>
-          <br><br>
+        <div class="col">
+          <img src="assets/map.jpg", class="img-fluid tram">
         </div>
+      </div>
+      <br>
+      <div class="row", id="map-div">
+        <div id="melbourne_map"></div>
       </div>
     </div>
 
@@ -66,33 +69,84 @@
             <div class="row">
               <div class="col"></div>
               <div class="col">
-                <ul class="list-unstyled">
-                  <li class="list-group-item active"> &#9728; Driving</li>
-                  <li class="list-group-item active"> &#9728; Walking</li>
-                  <li class="list-group-item active"> &#9728; Cycling</li>
-                  <li class="list-group-item active"> &#9728; Train</li>
-                  <li class="list-group-item active"> &#9728; Tram</li>
-                  <li class="list-group-item active"> &#9728; Bus</li>
+                <ul class="list-group", style="font-weight: bold;">
+                  <li class="list-group-item"> &#128663; Driving</li>
+                  <li class="list-group-item"> &#128694; Walking</li>
+                  <li class="list-group-item"> &#128690; Cycling</li>
+                  <li class="list-group-item"> &#128646; Train</li>
+                  <li class="list-group-item"> &#128651; Tram</li>
+                  <li class="list-group-item"> &#128652; Bus</li>
                 </ul>
               </div>
               <div class="col"></div>
             </div>
           </div>
+          <br>
           <p>
-            If you choose to drive into the city, the chart below gives a breakdown of the best times to park:
+            If you choose to drive into the city, the chart below gives a breakdown of the best times to park...
           </p>
+          <br>
         </div>
         <div class="col text-center", id="transport"></div>
       </div>
 
-      <div class="row">
-        <div class="col px-4", id="parking">
+      <div class="row mt-4">
+        <div class="col", id="parking">
         </div>
         <div class="col">
           <p>
+            Looking at the chart of public transport use, we can see a huge decline in usage from March 2020 onwards.
+            Naturally this is due to the Covid-19 pandemic and the lockdowns that occurred in Melbourne. 
+            We can see some rises between the major dips, correlating to the gap in lockdowns. 
+            But it seems as though post-lockdown, people are still wary of using public transport.
+            Let's hope you don't catch that pesky virus...
+            <br><br><br>
+            From the graph on the left we can see that the optimal time to parking is from the 1AM to 6AM...
+            <br>
+            This is not ideal but if we compare it to the actual number of parking bays available, 5424, these numbers don't seem that bad.
+            <br>
+            I wonder why there's so many empty...
+            <br>
           </p>
         </div>
       </div>
+    </div>
+
+    <div class="container mt-4 py-4 shadow body-div px-4">
+      <h2>Travelling Around the World Through Public Transport</h2>
+      <div class="row mt-4">
+        <div class="col">
+        </div>
+        <div class="col">
+
+          <p>
+            Looking at the chart of public transport use, we can see a huge decline in usage from March 2020 onwards.
+            Naturally this is due to the Covid-19 pandemic and the lockdowns that occurred in Melbourne. 
+            We can see some rises between the major dips, correlating to the gap in lockdowns. 
+            But it seems as though post-lockdown, people are still wary of using public transport.
+            Let's hope you don't catch that pesky virus...
+            <br><br><br>
+            From the graph on the left we can see that the optimal time to parking is from the 1AM to 6AM...
+            <br>
+            This is not ideal but if we compare it to the actual number of parking bays available, 5424, these numbers don't seem that bad.
+            <br>
+            I wonder why that is...
+            <br>
+          </p>
+  
+        </div>
+      </div>
+      <div class="row mt-4" id="world-pt" style="width: 100%;">
+      </div>   
+    </div>
+
+    <div class="container text-left mt-4 py-4 shadow body-div mb-4 px-4">
+      <p style="font-size: 16px;">
+        This webpage was created by Ethan Lee for FIT3179
+        <br>
+        Sources: <a href="https://data.melbourne.vic.gov.au/pages/home/">Melbourne Open Data Portal</a>
+        , <a href="https://www.ptv.vic.gov.au/footer/data-and-reporting/datasets/">Public Transport Victoria</a>
+      </p>
     </div>
   </body>
 </html>
