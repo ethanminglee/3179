@@ -6,7 +6,7 @@
       "font": "Roboto"
     },
     "title": "Public Transport Network Length for 25 Cities (2018)",
-    "data": {"url": "../data/world_pt.csv"},
+    "data": {"url": "https://raw.githubusercontent.com/ethanminglee/DataVis2/main/data/world_pt.csv"},
     "mark": {
       "type": "bar"
       
