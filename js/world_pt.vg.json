@@ -1,18 +1,18 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": "container",
+    "height": "container",
     "config": {
       "font": "Roboto"
     },
-    "height": 450,
-    "title": "",
+    "title": "Public Transport Network Length for 25 Cities (2018)",
     "data": {"url": "../data/world_pt.csv"},
     "mark": {
       "type": "bar"
       
     },
     "encoding": {
-      "x": {"field": "network_length", "type": "quantitative", "title": "Length of Transport Network (m)"},
+      "x": {"field": "network_length", "type": "quantitative", "title": "Length of Network (m)"},
       "y": {"field": "city", "type": "nominal", "title": "City Name"},
       "color": {"value": "grey"},
       "tooltip": [
