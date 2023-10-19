@@ -136,7 +136,7 @@
                 "value": null,
                 "select": {
                   "type": "point",
-                  "fields": ["Entity"],
+                  "fields": ["Area of Interest"],
                   "on": "click"
                 }
               },
